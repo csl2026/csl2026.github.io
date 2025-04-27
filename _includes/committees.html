@@ -16,7 +16,7 @@
             </a>
           </span>
           -
-          {{ chair.affiliation }}
+          {{ chair.affiliation }}, {{ chair.country }}
         </li>
         {% endfor %}
       </ul>
@@ -30,7 +30,8 @@
           </a>
           </span>
           -
-          {{ site.data.program-committee.chair.affiliation }}
+          {{ site.data.program-committee.chair.affiliation }},
+          {{ site.data.program-committee.chair.country }}
         </li>
       </ul>
       {% endif %}
@@ -47,7 +48,7 @@
             </a> 
           </span>
           -
-          {{ member.affiliation }}
+          {{ member.affiliation }}, {{ member.country }}
         </li>
         {% endfor %}
       </ul>
@@ -60,11 +61,13 @@
         {% for member in site.data.organising-committee %}
         <li>
           <span class="lead">
-            {{ member.firstname }}
-            {{ member.lastname }}
+            <a href="{{ member.webpage }}">
+              {{ member.firstname }}
+              {{ member.lastname }}
+            </a>
           </span>
           -
-          {{ member.affiliation }}
+          {{ member.affiliation }}, {{ member.country }}
         </li>
         {% endfor %}
       </ul>

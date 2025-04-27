@@ -1,12 +1,225 @@
 chair:
-- firstname: Barbara
-  lastname:  König
-  affiliation: Universität Duisburg-Essen, Germany
-  webpage: https://www.irif.fr/~greta/author/barbara-konig/
-
-- firstname: Stefano
-  lastname: Guerrini
-  affiliation: LIPN, University Sorbonne Paris Nord, France
-  webpage: https://lipn.univ-paris13.fr/~guerrini/home/
+-
+    firstname: Stefano
+    lastname: Guerrini
+    affiliation: Sorbonne Paris Nord University
+    country: France
+    webpage: https://www-lipn.univ-paris13.fr/~guerrini/
+-
+    firstname: Barbara
+    lastname: König
+    affiliation: University of Duisburg-Essen
+    country: Germany
+    webpage: https://www.uni-due.de/theoinf/people/koenig_en.php
 
 members:
+-
+    firstname: Antonis
+    lastname: Achilleos
+    affiliation: Reykjavik University
+    country: Iceland
+    webpage: https://sites.google.com/view/antonisachilleos/home
+-
+    firstname: Patrick
+    lastname: Baillot
+    affiliation: CNRS and University of Lille
+    country: France
+    webpage: https://pro.univ-lille.fr/patrick-baillot/
+-
+    firstname: Paolo
+    lastname: Baldan
+    affiliation: University of Padova
+    country: Italy
+    webpage: https://www.math.unipd.it/~baldan/
+-
+    firstname: Harsh
+    lastname: Beohar
+    affiliation: University of Sheffield
+    country: UK
+    webpage: https://www.sheffield.ac.uk/dcs/people/academic/harsh-beohar
+-
+    firstname: Florence
+    lastname: Clerc
+    affiliation: Heriot-Watt University Edinburgh
+    country: UK
+    webpage: https://sites.google.com/view/florenceclerc/home
+-
+    firstname: Marcelo
+    lastname: Fiore
+    affiliation: University of Cambridge
+    country: UK
+    webpage: https://www.cl.cam.ac.uk/~mpf23/
+-
+    firstname: Nicola
+    lastname: Gambino
+    affiliation: University of Manchester
+    country: UK
+    webpage: https://personalpages.manchester.ac.uk/staff/nicola.gambino/
+-
+    firstname: Marianna
+    lastname: Girlando
+    affiliation: University of Amsterdam
+    country: Netherlands
+    webpage: https://www.mariannagirlando.com/Girlando.html
+-
+    firstname: Stefan
+    lastname: Göller
+    affiliation: University of Kassel
+    country: Germany
+    webpage: https://www.uni-kassel.de/eecs/en/tiks/team/detailansicht?tx_ukpersons_personfunctiondetail%5BpersonFunction%5D=118&cHash=c59531be23b79bac603f6f96eda29c74
+-
+    firstname: Giulio
+    lastname: Guerrieri
+    affiliation: University of Sussex
+    country: UK
+    webpage: https://pageperso.lis-lab.fr/~giulio.guerrieri/
+-
+    firstname: Luisa
+    lastname: Herrmann
+    affiliation: TU Dresden
+    country: Germany
+    webpage: https://wwwtcs.inf.tu-dresden.de/~herrmann/
+-
+    firstname: Naoki
+    lastname: Kobayashi
+    affiliation: The University of Tokyo
+    country: Japan
+    webpage: https://www-kb.is.s.u-tokyo.ac.jp/~koba/
+-
+    firstname: Dexter
+    lastname: Kozen
+    affiliation: Cornell University
+    country: USA
+    webpage: https://www.cs.cornell.edu/~kozen/
+-
+    firstname: Antonín
+    lastname: Kučera
+    affiliation: Masaryk University Brno
+    country: Czech Republic
+    webpage: https://www.fi.muni.cz/usr/kucera/
+-
+    firstname: Clemens
+    lastname: Kupke
+    affiliation: University of Strathclyde Glasgow
+    country: UK
+    webpage: https://www.strath.ac.uk/staff/kupkeclemensdr/
+-
+    firstname: Aliaume
+    lastname: Lopez
+    affiliation: University of Warsaw
+    country: Poland
+    webpage: https://perso.crans.org/alopez/
+-
+    firstname: Giulio
+    lastname: Manzonetto
+    affiliation: Paris Cité University
+    country: France
+    webpage: https://www.irif.fr/~gmanzone/
+-
+    firstname: Paul-André
+    lastname: Melliès
+    affiliation: CNRS and Paris Cité University
+    country: France
+    webpage: https://www.irif.fr/~mellies/
+-
+    firstname: Aart
+    lastname: Middeldorp
+    affiliation: University of Innsbruck
+    country: Austria
+    webpage: http://cl-informatik.uibk.ac.at/users/ami/
+-
+    firstname: Matteo
+    lastname: Mio
+    affiliation: CNRS and ENS Lyon
+    country: France
+    webpage: https://perso.ens-lyon.fr/matteo.mio/
+-
+    firstname: Larry
+    lastname: Moss
+    affiliation: Indiana University Bloomington
+    country: USA
+    webpage: https://iulg.sitehost.iu.edu/moss/
+-
+    firstname: Sara
+    lastname: Negri
+    affiliation: University of Genova
+    country: Italy
+    webpage: https://sites.google.com/view/saranegri/home
+-
+    firstname: Elaine
+    lastname: Pimentel
+    affiliation: University College London
+    country: UK
+    webpage: https://sites.google.com/site/elainepimentel/home?authuser=0
+-
+    firstname: Paolo
+    lastname: Pistone
+    affiliation: Claude Bernard University Lyon 1
+    country: France
+    webpage: https://perso.ens-lyon.fr/paolo.pistone/
+-
+    firstname: Jurriaan
+    lastname: Rot
+    affiliation: Radboud University Nijmegen
+    country: Netherlands
+    webpage: https://jurriaan.creativecode.org
+-
+    firstname: Sven
+    lastname: Schewe
+    affiliation: University of Liverpool
+    country: UK
+    webpage: https://www.csc.liv.ac.uk/~sven/
+-
+    firstname: Sylvain
+    lastname: Schmitz
+    affiliation: Paris Cité University
+    country: France
+    webpage: https://www.irif.fr/~schmitz/
+-
+    firstname: Lutz
+    lastname: Schröder
+    affiliation: FAU Erlangen-Nürnberg
+    country: Germany
+    webpage: https://www8.cs.fau.de/~schroed/
+-
+    firstname: Thomas
+    lastname: Schwentick
+    affiliation: TU Dortmund University
+    country: Germany
+    webpage: https://logic-in.cs.tu-dortmund.de/personen/profs/thomas-schwentick
+-
+    firstname: Thomas
+    lastname: Seiller
+    affiliation: CNRS and Sorbonne Paris Nord University
+    country: France
+    webpage: https://www-lipn.univ-paris13.fr/~seiller/
+-
+    firstname: Peter
+    lastname: Selinger
+    affiliation: Dalhousie University
+    country: Canada
+    webpage: https://www.mathstat.dal.ca/~selinger/
+-
+    firstname: Viorica
+    lastname: Sofronie-Stokkermans
+    affiliation: University of Koblenz
+    country: Germany
+    webpage: https://www.uni-koblenz.de/en/computer-science/ics/sofronie-stokkermans/team/viorica-sofronie-stokkermans
+-
+    firstname: Lorenzo
+    lastname: Tortora de Falco
+    affiliation: Roma Tre University
+    country: Italy
+    webpage: https://www.mat.uniroma3.it/users/tortora/
+-
+    firstname: Fabio
+    lastname: Zanasi
+    affiliation: University College London
+    country: UK
+    webpage: "http://www.zanasi.com/fabio/"
+-
+    firstname: Margherita
+    lastname: Zorzi
+    affiliation: University of Verona
+    country: Italy
+    webpage: https://www.di.univr.it/?ent=persona&id=3616&lang=en

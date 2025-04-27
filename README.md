@@ -1,1 +1,2 @@
-# csl2026.github.io
+# csl2026
+Computer Science Logic 2026

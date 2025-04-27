@@ -7,7 +7,6 @@
 
   {%- include header-home.html -%}
 
-  {% comment %}
   <section id="about">
   {%- include about.html -%}
   </section>
@@ -20,6 +19,7 @@
   {%- include dates.html -%}
   </section>
 
+  {% comment %}
   <section id="speakers" class="bg-light">
   {%- include speakers.html -%}
   </section>
@@ -31,12 +31,12 @@
   <section id="program">
   {%- include program.html -%}
   </section>
+  {% endcomment %}
 
   <section id="committees" class="bg-light">
   {%- include committees.html -%}
   </section>
-  {% endcomment %}
-
+ 
   {%- include footer.html -%}
 
   {%- include js.html -%}

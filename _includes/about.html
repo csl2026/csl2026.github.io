@@ -1,8 +1,25 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 mx-auto">
-      <p>{{ site.description | markdownify }}</p>
+      <p>CSL is the 
+        <a href="https://www.eacsl.org/csl-conferences/">annual conference</a>
+        of the European Association for Computer Science Logic
+        <a href="https://www.eacsl.org/">EACSL</a> 
+        It is an interdisciplinary conference, spanning across both basic and application 
+        oriented research in mathematical logic and computer science.</p>
+      <p>CSL 2026 is the 34th edition of the conference and 
+        will be held in Paris on the 23-28 February 2026 and is organised by 
+        the Logic and Computation team of the
+        <a href="https://lipn.univ-paris13.fr/">LIPN</a>
+        of Sorbonne Paris Nord University.</p>
 
+        <h4>Topics</h4>
+        <p>Topics of interest include, but are not limited to:</p>
+        <ul>
+          {% for topic in site.data.topics %}
+            <li>{{ topic }}</li>
+          {% endfor %}
+        </ul>
     </div>
   </div>
 </div>

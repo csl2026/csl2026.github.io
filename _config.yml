@@ -21,8 +21,9 @@
 title: CSL 2026
 email: stefano.guerrini@univ-paris13.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  CSL 2026 - 34th [EACSL](https://www.eacsl.org/) Annual Conference
+  34th [EACSL](https://www.eacsl.org/) Annual Conference
   [Computer Science Logic](https://www.eacsl.org/csl-conferences/).
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://csl2026.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
