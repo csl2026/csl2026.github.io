@@ -1,9 +1,9 @@
 =====================================
-Call for papers
-   CSL 2026
-   https://csl2026.github.io/
-   Paris, France
-   23-28 February 2026
+Call for papers 
+    CSL 2026
+    https://csl2026.github.io/
+    Paris, France
+    23-28 February 2026
 Abstract submission: 15 July 2025 (AoE)
 =====================================
 
@@ -18,13 +18,6 @@ science.
 CSL 2026 is the 34th edition of the conference and will be held in Paris on
 the 23-28 February 2026 and is organised by the Logic and Computation
 team of the LIPN of Sorbonne Paris Nord University.
-
-Invited Speakers:
---------------------
-- Pierre Clairambault
-- Sandra Kiefer
-- Gordon Plotkin
-- Ana Sokolova
 
 Topics:
 --------------
@@ -89,10 +82,10 @@ chairs) are allowed.
 
 The submissions are double-blind:
 - Authors are not allowed to put their name on the paper, and they
-  should avoid revealing their identities in text (references to previous
-  or related work should be in third-person).
+   should avoid revealing their identities in text (references to previous
+   or related work should be in third-person).
 - Authors are allowed (and even encouraged) to disseminate the work
-  on public repositories (e.g. on arXiv or their websites).
+   on public repositories (e.g. on arXiv or their websites).
 
 At least one of the authors of each accepted paper is expected to
 register for the conference in order to present their paper.
@@ -102,8 +95,8 @@ Important dates:
 All deadlines are midnight anywhere-on-earth (AoE);
 late submissions will not be considered.
 - Abstract submission: 15 July, 2025
-- Paper submission: 21 July  2025
-- Notification: 14 October 2025
+- Paper submission: 21  July  2025
+- Notification: 20 October 2025
 - Final Version: 30 November 2025
 - Conference: 23-28 February 2025
 
