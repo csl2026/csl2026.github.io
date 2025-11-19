@@ -1,12 +1,65 @@
-- firstname: TBA
-  lastname: TBA
-  affiliation: TBA
+# - firstname: TBA
+#   lastname: TBA
+#   affiliation: TBA
+#   # photo not yet implemented
+#   # img: "?"
+#   # thumbnail: "?"
+#   # alt: Picture of "?"
+#   title: TBA
+#   abstract: 
+#     TBA
+#   link:
+#   webpage:
+
+- firstname: Pierre
+  lastname: Clairambault
+  affiliation: Aix-Marseille University, France
   # photo not yet implemented
   # img: "?"
   # thumbnail: "?"
   # alt: Picture of "?"
-  title: TBA
+#  title: TBA
   abstract: 
-    TBA
+#    TBA
   link:
-  webpage:
+  webpage: "https://pageperso.lis-lab.fr/pierre.clairambault/"
+
+- firstname: Sandra
+  lastname: Kiefer
+  affiliation: University of Oxford, UK
+  # photo not yet implemented
+  # img: "?"
+  # thumbnail: "?"
+  # alt: Picture of "?"
+#  title: 
+  abstract:
+#    TBA
+  link:
+  webpage: "https://www.cs.ox.ac.uk/people/sandra.kiefer/"
+
+- firstname: Gordon 
+  lastname: Plotkin
+  affiliation: University of Edinburgh, UK
+  # photo not yet implemented
+  # img: "?"
+  # thumbnail: "?"
+  # alt: Picture of "?"
+#  title: TBA
+  abstract: 
+#    TBA
+  link:
+  webpage: "https://homepages.inf.ed.ac.uk/gdp/"
+
+- firstname: Ana
+  lastname: Sokolova
+  affiliation: University of Salzburg, Austria
+  # photo not yet implemented
+  # img: "?"
+  # thumbnail: "?"
+  # alt: Picture of "?"
+#  title: TBA
+  abstract: 
+#    TBA
+  link:
+  webpage: "https://www.cs.uni-salzburg.at/~anas/"
+

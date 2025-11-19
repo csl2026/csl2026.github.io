@@ -16,14 +16,14 @@
 - title: Committees
   link: /#committees
 
-# - title: Speakers
-#   link: /#speakers
+- title: Speakers
+  link: /#speakers
 
 # - title: Tutorials
 #   link: /#tutorials
 
-# - title: Accepted papers
-#   link: /accepted
+- title: Accepted papers
+  link: /accepted
 
-# - title: Program
-#   link: /#program
+- title: Program
+  link: /#program

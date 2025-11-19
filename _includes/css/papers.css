@@ -3,8 +3,8 @@
     border-right: solid black 1px;
     border-top: solid black 1px;
     padding: 2pt;
-    padding-left: 3.5ex;
-    text-indent: -3.5ex;
+    padding-left: 4.5ex;
+    text-indent: -4.5ex;
 }
 
 .paper:last-child {
@@ -13,7 +13,7 @@
 
 .paper .number {
     display: inline-block;
-    width: 3ex;
+    width: 4ex;
     text-align: right;
 }
 

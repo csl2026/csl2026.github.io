@@ -6,3 +6,285 @@
 #   - author?
 #   link: ?.pdf
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+- number: 3
+  authors:
+    - Manuel Bodirsky
+    - Santiago Guzman Pro
+  title: "Hereditary First-Order Logic: the tractable quantifier prefix classes"
+
+- number: 4
+  authors:
+    - Samuel Mimram
+    - Emile Oleon
+  title: "Classifying covering types in homotopy type theory"
+
+- number: 5
+  authors:
+    - Qipeng Kuang
+    - Ondřej Kuželka
+    - Yuanhong Wang
+    - Yuyi Wang
+  title: "Bridging Weighted First Order Model Counting and Graph Polynomials"
+
+- number: 7
+  authors:
+    - Valentin Pasquale
+    - Álvaro García-Pérez
+  title: "Towards the type safety of Pure Subtype Systems"
+
+- number: 10
+  authors:
+    - Gianluca Curzi
+    - Lukas Melgaard
+  title: "Cyclic proof theory of positive inductive definitions"
+
+- number: 18
+  authors:
+    - Nicolas Peltier
+  title: "On the Entailment Problem in Dynamic Separation Logic with Inductive Definitions"
+
+- number: 19
+  authors:
+    - Sophie Brinke
+    - Anuj Dawar
+    - Erich Grädel
+    - Lovro Mrkonjić
+    - Matthias Naaf
+  title: "Compactness in Semiring Semantics"
+
+- number: 20
+  authors:
+    - Josée Desharnais
+    - Ana Sokolova
+  title: "$\\varepsilon$-Distance via Lévy-Prokhorov Lifting"
+
+- number: 28
+  authors:
+    - Pablo Barenbaum
+    - Delia Kesner
+    - Mariana Milicich
+  title: "Useful Call-by-Value: A Semantic Interpretation via Quantitative Types"
+
+- number: 34
+  authors:
+    - Isa Vialard
+  title: "Deciding the Value of Two-Clock Almost Non-Zeno Weighted Timed Games"
+
+- number: 35
+  authors:
+    - Guy Avni
+    - Suman Sadhukhan
+  title: "Mean-payoff and Energy Discrete Bidding Games"
+
+- number: 36
+  authors:
+    - Matthew Earnshaw
+    - Chad Nester
+    - Mario Román
+  title: "Resourceful traces for commuting processes"
+
+- number: 39
+  authors:
+    - Stéphane Demri
+    - Tianwen Gu
+  title: "Robustness of Constraint Automata for Description Logics with Concrete Domains"
+
+- number: 40
+  authors:
+    - Thorsten Altenkirch
+    - Ambrus Kaposi
+    - Szumi Xie
+  title: "The Groupoid-syntax of Type Theory is a Set"
+
+- number: 41
+  authors:
+    - Michael Benedikt
+    - Chia-Hsuan Lu
+    - Tony Tan
+  title: "Analysis of logics with arithmetic"
+
+- number: 43
+  authors:
+    - Anuj Dawar
+    - Lauri Hella
+    - Benedikt Pago
+  title: "Arity hierarchies for quantifiers closed under partial polymorphisms"
+
+- number: 46
+  authors:
+    - Sebastian Pfau
+  title: "Boolean Basis and Succinctness of Modal Logic via Hella-Vilander games"
+
+- number: 49
+  authors:
+    - Nicolas Fröhlich
+    - Phokion Kolaitis
+    - Arne Meier
+  title: "Disjunctions of Two Dependence Atoms"
+
+- number: 58
+  authors:
+    - Gregoire Fournier
+    - Gyorgy Turan
+  title: "A Game for Counting Logic Formula Size and an Application to Linear Orders"
+
+- number: 62
+  authors:
+    - Varad Joshi
+    - Anantha Padmanabha
+  title: "A Decidable Bundled Fragment of First-Order Modal Logic Without Finite Model Property"
+
+- number: 67
+  authors:
+    - Fatemeh Ghasemi
+    - Julien Grange
+    - Mamadou Moustapha Kanté
+    - Florent Madelaine
+  title: "Weakly-sparse and strongly flip-flat classes of graphs are almost-wide"
+
+- number: 68
+  authors:
+    - Filip Jankovec
+    - Zuzana Haniková
+  title: "Satisfiability in Łukasiewicz logic and its unbounded relative"
+
+- number: 69
+  authors:
+    - Emily Clement
+    - Enzo Erlich
+    - Jérémy Ledent
+  title: "Kamp theorem for Higher Dimensinal Automata"
+
+- number: 71
+  authors:
+    - Jan J.M. Martens
+  title: "Minimal DFAs Witnessing Language Inequivalence"
+
+- number: 74
+  authors:
+    - Henning Urbat
+    - Thorsten Wißmann
+  title: "Well-Founded Coalgebras Meet König's Lemma"
+
+- number: 77
+  authors:
+    - Ruben Turkenburg
+    - Harsh Beohar
+    - Franck van Breugel
+    - Clemens Kupke
+    - Jurriaan Rot
+  title: "Constructing Witnesses for Lower Bounds on Behavioural Distances"
+
+- number: 78
+  authors:
+    - Rafael Dewes
+    - Rayna Dimitrova
+  title: "Reward Interfaces with Best-Effort Implementations"
+
+- number: 84
+  authors:
+    - Nino Dauvier
+    - Emmanuel Filiot
+    - Pierre-Alain Reynier
+  title: "Register-Bounded Synthesis from Constraint LTL"
+
+- number: 87
+  authors:
+    - Mateo Torres-Ruiz
+    - Robin Piedeleu
+    - Alexandra Silva
+    - Fabio Zanasi
+  title: "A Complete Diagrammatic Calculus for Conditional Gaussian Mixtures"
+
+- number: 89
+  authors:
+    - Mohamed Bandukara
+    - Nikos Tzevelekos
+  title: "A Logic for Fresh Labelled Transition Systems"
+
+- number: 95
+  authors:
+    - Étienne André
+    - Swen Jacobs
+    - Engel Lefaucheux
+  title: "Parametric disjunctive timed networks"
+
+- number: 101
+  authors:
+    - Daniël Otten
+    - Matteo Spadetto
+  title: "The biequivalence of path categories and axiomatic Martin-Löf type theories"
+
+- number: 103
+  authors:
+    - Yoan Géran
+  title: "A Canonical Form for Universe Levels in Impredicative Type Theory"
+
+- number: 109
+  authors:
+    - Perry Hart
+  title: "On Left Adjoints Preserving Colimits in HoTT"
+
+- number: 110
+  authors:
+    - Antonella Bilotta
+    - Marco Maggesi
+    - Cosimo Perini Brogi
+  title: "A modular framework for proof-search via formalised modal completeness in HOL Light"
+
+- number: 113
+  authors:
+    - Esaïe Bauer
+    - Alexis Saurin
+  title: "A uniform cut-elimination theorem for linear logics with fixed points and super-exponentials"
+
+- number: 114
+  authors:
+    - Alessandro Di Giorgio
+    - Pawel Sobocinski
+    - Niels Voorneveld
+  title: "Parametric Iteration in Resource Theories"
+
+- number: 116
+  authors:
+    - Callum Reader
+    - Alessandro Di Giorgio
+  title: "String Diagrams for Closed Symmetric Monoidal Categories"
+
+- number: 117
+  authors:
+    - Giulio Fellin
+  title: "A Unifying Conservation Theorem"
+
+- number: 118
+  authors:
+    - Radu Mardare
+    - Robert Furber
+    - Prakash Panangaden
+    - Dana Scott
+  title: "Interpreting Lambda Calculus in Domain-Valued Random Variables"
+
+- number: 122
+  authors:
+    - Samuel Graepler
+    - Benjamin Monmege
+    - Jean-Marc Talbot
+  title: "Reasoning about Quality in Hyperproperties"
+
+- number: 125
+  authors:
+    - Yoav Feinstein
+    - Orna Kupferman
+  title: "Memory Requirements in Non-Zero-Sum Games"
+
+- number: 129
+  authors:
+    - Davide Barbarossa
+    - Thomas Powell
+  title: "On the algorithmic structure of Dialectica realisers"
+
+- number: 131
+  authors:
+    - Nachiappan Valliappan
+  title: "Lax Modal Lambda Calculi"
