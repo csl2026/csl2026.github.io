@@ -129,11 +129,11 @@
     - Gyorgy Turan
   title: "A Game for Counting Logic Formula Size and an Application to Linear Orders"
 
-- number: 62
-  authors:
-    - Varad Joshi
-    - Anantha Padmanabha
-  title: "A Decidable Bundled Fragment of First-Order Modal Logic Without Finite Model Property"
+# - number: 62
+#   authors:
+#     - Varad Joshi
+#     - Anantha Padmanabha
+#   title: "A Decidable Bundled Fragment of First-Order Modal Logic Without Finite Model Property"
 
 - number: 67
   authors:
