@@ -11,6 +11,13 @@ header.home {
   -o-background-size: cover;
 }
 
+.link-icon {
+  width: 28px;
+  height: 28px;
+  opacity: 0.6;
+  color: white;
+}
+
 .navbar .dropdown-menu {
   transition: background-color 0.3s ease;
 }
