@@ -1,0 +1,38 @@
+/* Registration fees table */
+
+.registration-fees {
+  margin: 2rem auto;              /* center the table */
+  border-collapse: collapse;
+  border: 3px double #333;        /* strong outer border */
+  min-width: 500px;
+}
+
+.registration-fees thead th {
+  border-bottom: 3px double #333; /* strong separation for header */
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.registration-fees th,
+.registration-fees td {
+  border: 1px solid #555;         /* inner grid lines */
+  padding: 0.6rem 1rem;
+}
+
+.registration-fees tbody td:first-child {
+  text-align: left;               /* conference names */
+}
+
+.registration-fees tbody td:not(:first-child) {
+  text-align: center;             /* prices */
+}
+
+.registration-fees tbody tr:not(:last-child) td {
+  border-bottom: 1px solid #777;  /* consistent row separation */
+}
+
+/* Optional: improve readability */
+.registration-fees tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
