@@ -1,29 +1,41 @@
 - title: Home
   link: /
 
-- title: CFP
-  link: /cfp.html
+- title: CSL 2026
+  list:
 
-- title: About
-  link: /#about
+  - title: About
+    link: /#about
 
-- title: Submission
-  link: /#submission
+  - title: CFP
+    link: /cfp.html
 
-- title: Dates
-  link: /#dates
+  - title: Submission
+    link: /#submission
 
-- title: Committees
-  link: /#committees
+  - title: Dates
+    link: /#dates
 
-- title: Speakers
-  link: /#speakers
+  - title: Committees
+    link: /#committees
 
-# - title: Tutorials
-#   link: /#tutorials
+  - title: Speakers
+    link: /#speakers
 
-- title: Accepted papers
-  link: /accepted
+  # - title: Tutorials
+  #   link: /#tutorials
+
+  - title: Accepted papers
+    link: /accepted
+
+- title: Workshops
+  list:
+
+  - title: FICS
+    url: https://fics2026.github.io
+
+  - title: LMW
+    url: https://fics2026.github.iohttps://logic-mentoring-workshop.github.io/csl26/
 
 - title: Program
   link: /#program

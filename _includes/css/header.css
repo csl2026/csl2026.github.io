@@ -11,15 +11,34 @@ header.home {
   -o-background-size: cover;
 }
 
+.navbar .dropdown-menu {
+  transition: background-color 0.3s ease;
+}
+
 .navbar-home {
   background-color: transparent ! important;
 }
 
-.navbar-home.solid, .navbar-other {
+.navbar-home:not(.solid) .dropdown-menu {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-home.solid, 
+.navbar-home.solid .dropdown-menu, 
+.navbar-other, 
+.navbar-other .dropdown-menu {
   background-color: #70acea ! important;
 }
 
-.navbar .nav-link {
+
+.navbar .nav-link, 
+.navbar .dropdown-item {
   /* color: blue ! important; */
   color: white ! important;
 }
