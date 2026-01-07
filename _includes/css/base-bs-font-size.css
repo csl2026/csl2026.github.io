@@ -1,0 +1,48 @@
+/* ==================================================
+   Responsive base font sizing for Bootstrap
+   ==================================================
+
+   Bootstrap uses `rem` units for typography.
+   1rem is based on the font size of the <html> element.
+
+   By adjusting the <html> font size at different
+   breakpoints, all Bootstrap text scales naturally
+   across devices (headings, body text, buttons, forms).
+*/
+
+/* --------------------------------------------------
+   Mobile first (default)
+   Applies to phones and small devices
+   -------------------------------------------------- */
+html {
+  font-size: 16px; /* Safe and readable on small screens */
+}
+
+/* --------------------------------------------------
+   Tablets and small desktops (Bootstrap md breakpoint)
+   Screens ≥ 768px
+   -------------------------------------------------- */
+@media (min-width: 768px) {
+  html {
+    font-size: 17px; /* Slightly larger for more screen space */
+  }
+}
+
+/* --------------------------------------------------
+   Large desktops (Bootstrap xl breakpoint)
+   Screens ≥ 1200px
+   -------------------------------------------------- */
+@media (min-width: 1200px) {
+  html {
+    font-size: 18px; /* Comfortable reading on large displays */
+  }
+}
+
+/* --------------------------------------------------
+   Body defaults
+   Ensures consistent scaling and readability
+   -------------------------------------------------- */
+body {
+  font-size: 1rem;        /* Inherits from <html> */
+  line-height: 1.6;       /* Improves readability */
+}
