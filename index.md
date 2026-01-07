@@ -1,6 +1,7 @@
 ---
 layout: home
-submit: true
+submit: false
 accepted: false
 program: false
+register: true
 ---

@@ -18,8 +18,39 @@
       {{ site.date }}
     </h3>
 
+    <p>&nbsp;</p>
+
+    <svg style="display: none;">
+      <symbol id="icon-link"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+        <path d="M10 13a5 5 0 0 1 0-7l1-1a5 5 0 0 1 7 7l-1 1"/>
+        <path d="M14 11a5 5 0 0 1 0 7l-1 1a5 5 0 0 1-7-7l1-1"/>
+      </symbol>
+    </svg>
+
+    <h5>Colocated Workshops</h5> 
+
+    <h4 class="subtitle">
+      <!-- Fixed Points in Computer Science 2026 -->
+      FICS 2026 (23-24 February)<a href="https://fics2026.github.io"><svg class="link-icon" aria-hidden="true">
+            <use href="#icon-link"></use>
+          </svg></a><br />
+      14th Logic Mentoring Workshop (23 February)<a href="https://logic-mentoring-workshop.github.io/csl26/"><svg class="link-icon" aria-hidden="true">
+            <use href="#icon-link"></use>
+          </svg></a> 
+    </h4>
+
+    <p>&nbsp;</p>
+
     {% if page.program %}
     <a href="#program" class="btn btn-lg btn-info" role="button">Program</a>
+    {% elsif page.register %}
+    <a href="{{ 'registration' | relative_url }}" class="btn btn-lg btn-warning" role="button">Register</a>
     {% elsif page.accepted %}
     <a href="{{ 'accepted' | relative_url }}" class="btn btn-lg btn-info" role="button">Accepted</a>
     {% elsif page.submit %}
