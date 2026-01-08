@@ -1,91 +1,282 @@
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 mx-auto">
+<section class="programme">
 
-<!-- <p> The abstracts of the contributed talks are available at the <a href="https://hal-lirmm.ccsd.cnrs.fr/TLLA2021/browse/latest-publications"> HAL</a> repository.</p> -->
-      
-      <h2>Program</h2>
-      
-      <p>(schedules are given in CEST)</p>
+  <h2 class="programme-title">CSL 2026 Program</h2>
 
-      <h4>TBA</h4>
+  <!-- ===================== Tuesday ===================== -->
+  <section class="day" id="tue-24-feb-2026">
+    <h4 class="day-title">Tuesday, 24 February 2026</h4>
 
-      {% for day in site.data.program %} 
-        <br/><br/>
-        <h4>{{ day.date | date: "%B %e" }}</h4>
-        
-        <table>    
-          {% for item in day.list %}
-            <tr>
-              <td  style="text-align:right; vertical-align: top; padding-right:1ex;">{{ item[0] | date: "%H:%M" }}</td>
-              <td>
-                {% if item[2] == "contributed" %}
-                  {% assign paper = site.data.papers | where: "number", item[1] | first %}
-                  <div class="paper">
-                    <span class="number">
-                      {{ paper.number }}.
-                    </span>
-                    <span class="authors">
-                      {{ paper.authors | join: ", " }}.
-                    </span>
-                    <span class="title">
-                      {% if paper.link %}
-                        <a href="abstracts/{{ paper.link }}">{{ paper.title }}</a>.
-                      {% else %}
-                        {{ paper.title }}.
-                      {% endif %}
-                    </span>
-                  </div>
-                {% elsif item[2] == "invited" %}
-                  {% assign n = item[1] %}
-                  {% assign invited = site.data.speakers[n] %}
-                  <div class="paper">
-                    <span class="number">
-                    </span>
-                    <span class="invited">Invited Talk {{item[3]}}</span><br />
-                    <span class="authors">
-                      {{ invited.firstname }} {{ invited.lastname }}.
-                    </span>
-                    <span class="title">
-                      {% if invited.link %}
-                        <a href="abstracts/{{ invited.link }}">{{ invited.title }}</a>.
-                      {% else %}
-                        {{ invited.title }}.
-                      {% endif %}
-                    </span>
-                  </div>
-                {% elsif item[2] == "tutorial" %}
-                  {% assign n = item[1] %}
-                  {% assign tutorial = site.data.tutorials[n] %}
-                  <div class="paper">
-                    <span class="number">
-                    </span>
-                    <span class="invited">Tutorial {{item[3]}}</span><br />
-                    <span class="authors">
-                      {{ tutorial.firstname }} {{ tutorial.lastname }}.
-                    </span>
-                    <span class="title">
-                      {% if tutorial.link %}
-                        <a href="abstracts/{{ tutorial.link }}">{{ tutorial.title }}</a>.
-                      {% else %}
-                        {{ tutorial.title }}.
-                      {% endif %}
-                    </span>
-                  </div>
-                {% else %}
-                  <div class="break">
-                    <span>
-                      {{ item[2] }}
-                    </span>
-                  </div>
-                {% endif %} 
-              </td>
-            </tr>
-          {% endfor %}
-        </table>
-      {% endfor %}
-
-      
+    <div class="slot">
+      <div class="time">09:00 – 10:00</div>
+      <div class="details">
+        <span class="tag invited">Invited talk</span>
+        <strong>Pierre Clairambault</strong>
+      </div>
     </div>
-  </div>
-</div>
+
+    <div class="slot break">
+      <div class="time">10:00 – 10:25</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">10:25 – 12:30</div>
+      <div class="details">
+        <span class="tag session">Morning session (5 talks)</span>
+        <ul>
+          <li>Manuel Bodirsky and Santiago Guzman Pro. <em>Hereditary First-Order Logic: the tractable quantifier prefix classes</em></li>
+          <li>Qipeng Kuang, Ondřej Kuželka, Yuanhong Wang and Yuyi Wang. <em>Bridging Weighted First Order Model Counting and Graph Polynomials</em></li>
+          <li>Nino Dauvier, Emmanuel Filiot and Pierre-Alain Reynier. <em>Register-Bounded Synthesis from Constraint LTL</em></li>
+          <li>Anuj Dawar, Lauri Hella and Benedikt Pago. <em>Arity hierarchies for quantifiers closed under partial polymorphisms</em></li>
+          <li>Nicolas Fröhlich, Phokion Kolaitis and Arne Meier. <em>Disjunctions of Two Dependence Atoms</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">12:30 – 13:50</div>
+      <div class="details">
+        <span class="tag">Lunch</span>
+        <div class="note">In parallel: EACSL board meeting</div>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">13:50 – 15:30</div>
+      <div class="details">
+        <span class="tag session">Early afternoon session (4 talks)</span>
+        <ul>
+          <li>Mateo Torres-Ruiz, Robin Piedeleu, Alexandra Silva and Fabio Zanasi. <em>A Complete Diagrammatic Calculus for Conditional Gaussian Mixtures</em></li>
+          <li>Callum Reader and Alessandro Di Giorgio. <em>String Diagrams for Closed Symmetric Monoidal Categories</em></li>
+          <li>Sophie Brinke, Anuj Dawar, Erich Grädel, Lovro Mrkonjić and Matthias Naaf. <em>Compactness in Semiring Semantics</em></li>
+          <li>Zuzana Haniková and Filip Jankovec. <em>Satisfiability in Łukasiewicz logic and its unbounded relative</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slot break">
+      <div class="time">15:30 – 15:55</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">16:05 – 18:00</div>
+      <div class="details">
+        <span class="tag session">Late afternoon session (5 talks)</span>
+        <ul>
+          <li>Gianluca Curzi and Lukas Melgaard. <em>Cyclic proof theory of positive inductive definitions</em></li>
+          <li>Nicolas Peltier. <em>On the Entailment Problem in Dynamic Separation Logic with Inductive Definitions</em></li>
+          <li>Alexis Saurin and Esaïe Bauer. <em>A uniform cut-elimination theorem for linear logics with fixed points and super-exponentials</em></li>
+          <li>Antonella Bilotta, Marco Maggesi and Cosimo Perini Brogi. <em>A modular framework for proof-search via formalised modal completeness in HOL Light</em></li>
+          <li>Giulio Fellin. <em>A Unifying Conservation Theorem</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Wednesday ===================== -->
+  <section class="day" id="wed-25-feb-2026">
+    <h4 class="day-title">Wednesday, 25 February 2026</h4>
+
+    <div class="slot">
+      <div class="time">09:00 – 10:00</div>
+      <div class="details">
+        <span class="tag invited">Invited talk</span>
+        <strong>Sandra Kiefer</strong>
+      </div>
+    </div>
+
+    <div class="slot break">
+      <div class="time">10:00 – 10:25</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">10:25 – 12:25</div>
+      <div class="details">
+        <span class="tag session">Award session</span>
+        <strong>Ackermann and Church awards</strong>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">12:25 – 13:50</div>
+      <div class="details">
+        <span class="tag">Lunch</span>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">13:50 – 15:05</div>
+      <div class="details">
+        <span class="tag session">Early afternoon session (3 talks)</span>
+        <ul>
+          <li>Perry Hart. <em>On Left Adjoints Preserving Colimits in HoTT</em></li>
+          <li>Samuel Mimram and Emile Oleon. <em>Classifying covering types in homotopy type theory</em></li>
+          <li>Davide Barbarossa and Thomas Powell. <em>On the algorithmic structure of Dialectica realisers</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slot break">
+      <div class="time">15:05 – 15:30</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">15:30 – 16:30</div>
+      <div class="details">
+        <span class="tag session">Business meeting</span>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">Evening</div>
+      <div class="details">
+        <span class="tag">Social</span>
+        <strong>Conference Dinner</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Thursday ===================== -->
+  <section class="day" id="thu-26-feb-2026">
+    <h4 class="day-title">Thursday, 26 February 2026</h4>
+
+    <div class="slot">
+      <div class="time">09:00 – 10:00</div>
+      <div class="details">
+        <span class="tag invited">Invited talk</span>
+        <strong>Gordon Plotkin</strong>
+      </div>
+    </div>
+
+    <div class="slot break">
+      <div class="time">10:00 – 10:25</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">10:25 – 12:30</div>
+      <div class="details">
+        <span class="tag session">Morning session (5 talks)</span>
+        <ul>
+          <li>Mohamed Bandukara and Nikos Tzevelekos. <em>A Logic for Fresh Labelled Transition Systems</em></li>
+          <li>Henning Urbat and Thorsten Wißmann. <em>Well-Founded Coalgebras Meet König's Lemma</em></li>
+          <li>Ruben Turkenburg, Harsh Beohar, Franck van Breugel, Clemens Kupke and Jurriaan Rot. <em>Constructing Witnesses for Lower Bounds on Behavioural Distances</em></li>
+          <li>Josée Desharnais and Ana Sokolova. <em>ε-Distance via Lévy-Prokhorov Lifting</em></li>
+          <li>Michael Benedikt, Chia-Hsuan Lu and Tony Tan. <em>Analysis of logics with arithmetic</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">12:30 – 13:50</div>
+      <div class="details">
+        <span class="tag">Lunch</span>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">13:50 – 15:30</div>
+      <div class="details">
+        <span class="tag session">Early afternoon session (4 talks)</span>
+        <ul>
+          <li>Matthew Earnshaw, Chad Nester and Mario Román. <em>Resourceful traces for commuting processes</em></li>
+          <li>Alessandro Di Giorgio, Pawel Sobocinski and Niels Voorneveld. <em>Parametric Iteration in Resource Theories</em></li>
+          <li>Rafael Dewes and Rayna Dimitrova. <em>Reward Interfaces with Best-Effort Implementations</em></li>
+          <li>Étienne André, Swen Jacobs and Engel Lefaucheux. <em>Parametric disjunctive timed networks</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slot break">
+      <div class="time">15:30 – 15:55</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">16:05 – 18:00</div>
+      <div class="details">
+        <span class="tag session">Late afternoon session (5 talks)</span>
+        <ul>
+          <li>Guy Avni and Suman Sadhukhan. <em>Mean-payoff and Energy Discrete Bidding Games</em></li>
+          <li>Isa Vialard. <em>Deciding the Value of Two-Clock Almost Non-Zeno Weighted Timed Games</em></li>
+          <li>Yoav Feinstein and Orna Kupferman. <em>Memory Requirements in Non-Zero-Sum Games</em></li>
+          <li>Sebastian Pfau. <em>Boolean Basis and Succinctness of Modal Logic via Hella-Vilander games</em></li>
+          <li>Gregoire Fournier and György Turán. <em>A Game for Counting Logic Formula Size and an Application to Linear Orders</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Friday ===================== -->
+  <section class="day" id="fri-27-feb-2026">
+    <h4 class="day-title">Friday, 27 February 2026</h4>
+
+    <div class="slot">
+      <div class="time">09:00 – 10:00</div>
+      <div class="details">
+        <span class="tag invited">Invited talk</span>
+        <strong>Ana Sokolova</strong>
+      </div>
+    </div>
+
+    <div class="slot break">
+      <div class="time">10:00 – 10:25</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">10:25 – 12:30</div>
+      <div class="details">
+        <span class="tag session">Morning session (5 talks)</span>
+        <ul>
+          <li>Valentin Pasquale and Álvaro García-Pérez. <em>Towards the type safety of Pure Subtype Systems</em></li>
+          <li>Daniël Otten and Matteo Spadetto. <em>The biequivalence of path categories and axiomatic Martin-Löf type theories</em></li>
+          <li>Yoan Géran. <em>A Canonical Form for Universe Levels in Impredicative Type Theory</em></li>
+          <li>Thorsten Altenkirch, Ambrus Kaposi and Szumi Xie. <em>The Groupoid-syntax of Type Theory is a Set</em></li>
+          <li>Fatemeh Ghasemi, Julien Grange, Mamadou Moustapha Kanté and Florent Madelaine. <em>Weakly-sparse and strongly flip-flat classes of graphs are almost-wide</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">12:30 – 13:50</div>
+      <div class="details">
+        <span class="tag">Lunch</span>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">13:50 – 15:30</div>
+      <div class="details">
+        <span class="tag session">Early afternoon session (4 talks)</span>
+        <ul>
+          <li>Stéphane Demri and Tianwen Gu. <em>Robustness of Constraint Automata for Description Logics with Concrete Domains</em></li>
+          <li>Emily Clement, Enzo Erlich and Jérémy Ledent. <em>Kamp theorem for Higher Dimensional Automata</em></li>
+          <li>Jan J.M. Martens. <em>Minimal DFAs Witnessing Language Inequivalence</em></li>
+          <li>Samuel Graepler, Benjamin Monmege and Jean-Marc Talbot. <em>Reasoning about Quality in Hyperproperties</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slot break">
+      <div class="time">15:30 – 15:55</div>
+      <div class="details">Break</div>
+    </div>
+
+    <div class="slot">
+      <div class="time">16:05 – 17:10</div>
+      <div class="details">
+        <span class="tag session">Late afternoon session (3 talks)</span>
+        <ul>
+          <li>Nachiappan Valliappan. <em>Lax Modal Lambda Calculi</em></li>
+          <li>Pablo Barenbaum, Delia Kesner and Mariana Milicich. <em>Useful Call-by-Value: A Semantic Interpretation via Quantitative Types</em></li>
+          <li>Radu Mardare, Robert Furber, Prakash Panangaden and Dana Scott. <em>Interpreting Lambda Calculus in Domain-Valued Random Variables</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</section>

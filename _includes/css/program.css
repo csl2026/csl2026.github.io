@@ -1,0 +1,99 @@
+/* ================= Programme hard reset ================= */
+
+.programme,
+.programme * {
+  box-sizing: border-box;
+}
+
+/* Kill inherited section margins */
+.programme section {
+  margin: 0;
+  padding: 0;
+}
+
+/* Top spacing */
+.programme {
+  margin-top: 0.5rem !important;
+}
+
+/* Main title */
+.programme > h2.programme-title {
+  margin: 0 0 2rem 0 !important;
+}
+
+/* ===== Day blocks: EXACT spacing control ===== */
+.programme .day {
+  margin: 0 0 1.5rem 0 !important;   /* ← exactly 1.5rem between days */
+  padding: 0 !important;
+}
+
+/* Day titles */
+.programme .day-title {
+  margin: 0.3rem 0 0.5rem 0 !important;
+  padding: 0 0 0.25rem 0 !important;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Slots */
+.programme .slot {
+  display: flex;
+  gap: 1rem;
+  padding: 0.6rem 0 !important;
+  margin: 0 !important;
+  border-bottom: 1px solid #eee;
+}
+
+.programme .slot:last-child {
+  border-bottom: none;
+}
+
+/* Breaks */
+.programme .slot.break {
+  background: #f8f9fa;
+  font-style: italic;
+}
+
+/* Time column */
+.programme .time {
+  flex: 0 0 120px;
+  font-weight: 600;
+  color: #555;
+  white-space: nowrap;
+}
+
+/* Lists */
+.programme .details ul {
+  margin: 0.4rem 0 0 0 !important;
+  padding-left: 1.2rem;
+}
+
+.programme .details li {
+  margin: 0 0 0.4rem 0;
+}
+
+/* Tags */
+.programme .tag {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  background: #e9ecef;
+}
+
+.programme .tag.session { background: #dee2e6; }
+.programme .tag.invited { background: #ced4da; font-weight: 600; }
+
+/* Notes */
+.programme .note {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .programme .slot {
+    flex-direction: column;
+  }
+}
