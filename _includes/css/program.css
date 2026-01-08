@@ -5,21 +5,18 @@
   box-sizing: border-box;
 }
 
-/* Kill inherited section margins */
-.programme section {
-  margin: 0;
-  padding: 0;
-}
-
-/* Top spacing */
+/* Programme block is a DIV now, so theme's `section { padding:150px }` won't touch it */
 .programme {
-  margin-top: 0.5rem !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 150px !important;
 }
 
-/* Main title */
+/* Tight top title spacing */
 .programme > h2.programme-title {
   margin: 0 0 2rem 0 !important;
 }
+
 
 /* ===== Day blocks: EXACT spacing control ===== */
 .programme .day {
@@ -29,7 +26,7 @@
 
 /* Day titles */
 .programme .day-title {
-  margin: 0.3rem 0 0.5rem 0 !important;
+  margin: 0.25rem 0 0.5rem 0 !important;
   padding: 0 0 0.25rem 0 !important;
   border-bottom: 2px solid #ddd;
 }
