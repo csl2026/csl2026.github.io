@@ -3,3 +3,67 @@
   affiliation: Sorbonne Paris Nord University
   country: France
   webpage: https://lipn.univ-paris13.fr/~guerrini/home/
+  email: stefano.guerrini@univ-paris13.fr
+
+- firstname: Flavien
+  lastname: Breuvart
+  email: breuvart@lipn.univ-paris13.fr
+  webpage: https://lipn.univ-paris13.fr/~breuvart/
+  affiliation: Sorbonne Paris Nord University
+  country: France
+
+- firstname: Stefano
+  lastname: Catozi
+  email: catozi@lipn.univ-paris13.fr
+  webpage: https://lipn.univ-paris13.fr/membre-perso/
+  affiliation: Sorbonne Paris Nord University
+  country: France
+
+- firstname: Emily
+  lastname: Clement
+  email: emily.clement@lipn.univ-paris13.fr
+  webpage: https://perso.eleves.ens-rennes.fr/people/Emily.Clement/
+  affiliation: Sorbonne Paris Nord University
+  country: France
+
+- firstname: Jacopo
+  lastname: Furlan
+  email: furlan@lipn.univ-paris13.fr
+  webpage: https://lipn.univ-paris13.fr/membre-perso/
+  affiliation: Sorbonne Paris Nord University
+  country: France
+
+- firstname: Thomas
+  lastname: Laure
+  email: laure@lipn.univ-paris13.fr
+  webpage: https://thomaslaure.github.io
+  affiliation: Sorbonne Paris Nord University
+  country: France
+
+- firstname: Munyque
+  lastname: Mittelman
+  email: mittelmann@lipn.univ-paris13.fr
+  webpage: https://sites.google.com/view/mittelmann
+  affiliation: Sorbonne Paris Nord University
+  country: France
+
+- firstname: Caterina
+  lastname: Mosca
+  email: mosca@lipn.univ-paris13.fr
+  webpage: https://lipn.univ-paris13.fr/membre-perso/
+  affiliation: Sorbonne Paris Nord University
+  country: France
+
+- firstname: Elaine
+  lastname: Pimentel
+  email: e.pimentel@ucl.ac.uk
+  webpage: https://profiles.ucl.ac.uk/87847-elaine-pimentel
+  affiliation: University College London
+  country: United Kingdom
+
+- firstname: Morgan
+  lastname: Rogers
+  email: rogers@lipn.univ-paris13.fr
+  webpage: https://lipn.univ-paris13.fr/~rogers/
+  affiliation: Sorbonne Paris Nord University
+  country: France
