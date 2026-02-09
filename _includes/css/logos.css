@@ -1,0 +1,11 @@
+/* always responsive */
+img.img-fluid { height: auto; }
+
+/* preserve “relative” logo sizes (caps), but allow shrinking on phones */
+.logo-cnrs { max-width: 200px; }
+.logo-lipn { max-width: 220px; }
+.logo-uspn { max-width: 350px; }
+.logo-ig   { max-width: 450px; }
+
+/* nice spacing */
+.logo-cnrs, .logo-lipn, .logo-uspn, .logo-ig { width: 100%; }
