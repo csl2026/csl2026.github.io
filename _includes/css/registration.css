@@ -1,38 +1,87 @@
-/* Registration fees table */
-
-.registration-fees {
-  margin: 2rem auto;              /* center the table */
+/* ===== Registration fees table ===== */
+.registration-fees{
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 700px;
   border-collapse: collapse;
-  border: 3px double #333;        /* strong outer border */
-  min-width: 500px;
+  border: 3px double #333;
+
+  /* Natural sizing by default */
+  table-layout: auto;
 }
 
-.registration-fees thead th {
-  border-bottom: 3px double #333; /* strong separation for header */
+.registration-fees thead th{
+  border-bottom: 3px double #333;
   padding: 0.75rem 1rem;
   text-align: center;
   font-weight: bold;
 }
 
 .registration-fees th,
-.registration-fees td {
-  border: 1px solid #555;         /* inner grid lines */
+.registration-fees td{
+  border: 1px solid #555;
   padding: 0.6rem 1rem;
+  vertical-align: top;            /* nicer when text wraps */
 }
 
-.registration-fees tbody td:first-child {
+.registration-fees tbody td:first-child{
   text-align: left;               /* conference names */
 }
 
-.registration-fees tbody td:not(:first-child) {
-  text-align: center;             /* prices */
+.registration-fees tbody td:not(:first-child){
+  text-align: center;             /* dates + prices */
 }
 
-.registration-fees tbody tr:not(:last-child) td {
-  border-bottom: 1px solid #777;  /* consistent row separation */
+.registration-fees tbody tr:not(:last-child) td{
+  border-bottom: 1px solid #777;
 }
 
-/* Optional: improve readability */
-.registration-fees tbody tr:nth-child(even) {
+.registration-fees tbody tr:nth-child(even){
   background-color: #f8f8f8;
+}
+
+/* Keep prices compact on all screens */
+.registration-fees th:nth-child(3),
+.registration-fees th:nth-child(4),
+.registration-fees td:nth-child(3),
+.registration-fees td:nth-child(4){
+  white-space: nowrap;
+}
+
+/* Give Dates + Conference more room on larger screens */
+@media (min-width: 992px){
+  .registration-fees th:nth-child(1),
+  .registration-fees td:nth-child(1){ width: 30%; }  /* Conference */
+
+  .registration-fees th:nth-child(2),
+  .registration-fees td:nth-child(2){ width: 44%; }  /* Dates */
+
+  .registration-fees th:nth-child(3),
+  .registration-fees td:nth-child(3){ width: 13%; }  /* Regular */
+
+  .registration-fees th:nth-child(4),
+  .registration-fees td:nth-child(4){ width: 13%; }  /* Student */
+}
+
+/* Small screens: prevent overflow, allow wrapping, stable columns */
+@media (max-width: 576px){
+  .registration-fees{
+    table-layout: fixed;           /* fixed ONLY on small screens */
+  }
+
+  .registration-fees th,
+  .registration-fees td{
+    padding: 0.5rem 0.6rem;        /* tighter */
+    white-space: normal;           /* allow wrapping */
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  /* Keep price columns readable */
+  .registration-fees th:nth-child(3),
+  .registration-fees th:nth-child(4),
+  .registration-fees td:nth-child(3),
+  .registration-fees td:nth-child(4){
+    white-space: nowrap;
+  }
 }
