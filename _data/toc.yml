@@ -28,6 +28,12 @@
   - title: Accepted papers
     link: /accepted
 
+  - title: Program
+    link: /program
+
+  - title: Proceedings
+    link: /#proceedings
+
 - title: Workshops
   list:
 
@@ -43,6 +49,9 @@
 - title: Program
   link: /program
 
-- title: Registration
-  link: /registration
+- title: Proceedings
+  link: /#proceedings
+
+# - title: Registration
+#   link: /registration
 

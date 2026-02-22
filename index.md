@@ -2,6 +2,7 @@
 layout: home
 submit: false
 accepted: false
-program: false
-register: true
+program: true
+register: false
+proceedings: true
 ---

@@ -49,13 +49,16 @@
     <p>&nbsp;</p>
 
     {% if page.program %}
-    <a href="#program" class="btn btn-lg btn-info" role="button">Program</a>
+    <a href="{{ 'program' | relative_url }}"  class="btn btn-lg btn-info" role="button">Program</a>
     {% elsif page.register %}
     <a href="{{ 'registration' | relative_url }}" class="btn btn-lg btn-warning" role="button">Register</a>
     {% elsif page.accepted %}
     <a href="{{ 'accepted' | relative_url }}" class="btn btn-lg btn-info" role="button">Accepted</a>
     {% elsif page.submit %}
     <a href="#submission" class="btn btn-lg btn-primary" role="button">Submit</a>
+    {% endif %}
+    {% if page.proceedings %}
+    <a href="#proceedings" class="btn btn-lg btn-info" role="button">Proceedings</a>
     {% endif %}
   </div>
 </header>
