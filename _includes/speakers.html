@@ -15,7 +15,10 @@
           </span>
           -
           {{ speaker.affiliation }}<br>
-          <b>{{ speaker.title }}</b><br>
+          <a href="{{ speaker.link }}">
+            <em>{{ speaker.title }}</em>
+          </a>
+          <br>
           {{ speaker.abstract }}
         </li>
         {% endfor %}

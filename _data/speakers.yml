@@ -18,10 +18,10 @@
   # img: "?"
   # thumbnail: "?"
   # alt: Picture of "?"
-#  title: TBA
-  abstract: 
+  title: Towards A Rosetta Stone of Interactive and Quantitative Semantics
+  abstract:
 #    TBA
-  link:
+  link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2026.4
   webpage: "https://pageperso.lis-lab.fr/pierre.clairambault/"
 
 - firstname: Sandra
@@ -31,10 +31,10 @@
   # img: "?"
   # thumbnail: "?"
   # alt: Picture of "?"
-#  title: 
+  title: The Logic Behind Colour Refinement
   abstract:
 #    TBA
-  link:
+  link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2026.2
   webpage: "https://www.cs.ox.ac.uk/people/sandra.kiefer/"
 
 - firstname: Gordon 
@@ -44,10 +44,10 @@
   # img: "?"
   # thumbnail: "?"
   # alt: Picture of "?"
-#  title: TBA
+  title: Rational Lawvere Logic
   abstract: 
 #    TBA
-  link:
+  link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2026.3
   webpage: "https://homepages.inf.ed.ac.uk/gdp/"
 
 - firstname: Ana
@@ -57,9 +57,9 @@
   # img: "?"
   # thumbnail: "?"
   # alt: Picture of "?"
-#  title: TBA
+  title: Automata and Algebras for Probability and Nondeterminism
   abstract: 
 #    TBA
-  link:
+  link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2026.5
   webpage: "https://www.cs.uni-salzburg.at/~anas/"
 
