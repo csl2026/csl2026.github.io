@@ -50,7 +50,22 @@
   link: /#social-dinner
 
 - title: Program
-  link: /program
+#  link: /program
+  list:
+  - title: Program
+    link: /program
+
+  - title: Tuesday 24
+    link: /program/#tue-24-feb-2026
+
+  - title: Wednesday 25
+    link: /program/#wed-25-feb-2026
+
+  - title: Thursday 26
+    link: /program/#thu-26-feb-2026
+
+  - title: Friday 27
+    link: /program/#fri-27-feb-2026
 
 - title: Proceedings
   link: /#proceedings
